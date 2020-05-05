@@ -1,0 +1,17 @@
+.header {
+    padding: 2px 10px;
+    background: #FF004C;
+    color: #000000;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
