@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pet food shop cat food</title> <!--category template-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+<!--header div-->
+<div class="header" id="myHeader">
+    <h1>My homepage</h1>
+    <hr>
+    <h2><a href="#">Dogs</a> <a href="#">Cats</a> <a href="#">Birds</a> <a href="#">Reptiles</a> <a href="#">Other</a> <a href="#">Cart</a></h2>
+</div>
+
+<!--content div-->
+<div class="content" id="myContent">
+
+    <div class="row">
+        <!--filter div-->
+        <div class="column filter">
+            <h2>Food</h2>
+            <h2>Other</h2>
+            <h2>Sort by:</h2>
+            <h2>Price</h2>
+        </div>
+        <!--carousel div-->
+        <div class="column">
+            <img id="dogCategory" onclick="carousel()" src="image/dog.jpg"/>
+        </div>
+    </div>
+    <br>
+    <!--article div-->
+    <div class="row">
+        <div class="column"><img class="productImage" src="image/cat-food-brand-1.jpg"/><h2>Cat food brand 1</h2><button>Add to cart</button></div>
+        <div class="column"><img class="productImage" src="image/cat-food-brand-2.jpg"/><h2>Cat food brand 2</h2><button>Add to cart</button></div>
+    </div>
+</div>
+
+<!--footer div-->
+<div class="footer" id="myFooter">
+    <p>&copy; Pet food shop 2020</p>
+</div>
+</body>
+</html>
