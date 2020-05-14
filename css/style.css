@@ -1,17 +1,51 @@
+/*general style for the header*/
 .header {
     padding: 2px 10px;
     background: #FF004C;
     color: #000000;
 }
 
+/*removing the blue link color and underline*/
+.header a {
+    color: black;
+    text-decoration: none;
+}
+
+/*css animation to make links white when hovered over*/
+.header a:hover {
+    color: white;
+}
+
+/*remove article links blue color and underline*/
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/*defines the width of the article columns*/
 .column {
     float: left;
     width: 25%;
 }
 
-/* Clear floats after the columns */
+/*makes the text in the footer gray*/
+.footer {
+    color: gray;
+}
+
+/*clears float after the columns*/
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+/*giving the carousel some padding*/
+.content {
+    padding: 10px;
+}
+
+#dogCategory {
+    height: 300px;
+    width: 800px;
 }
