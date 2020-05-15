@@ -84,3 +84,14 @@ a {
 #myFooter {
     font-family: Quicksand;
 }
+
+/*align article text to centre */
+.article {
+    text-align: center;
+}
+
+/*align product content to centre and pad it*/
+.product {
+    text-align: center;
+    padding: 5px;
+}
