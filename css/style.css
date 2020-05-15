@@ -3,6 +3,7 @@
     padding: 2px 10px;
     background: #FF004C;
     color: #000000;
+    font-family: Quicksand;
 }
 
 /*removing the blue link color and underline*/
@@ -68,7 +69,18 @@ a {
     width: 200px;
 }
 
+/*border for articles and products*/
 .border {
     border: solid 2px #7D7D7D;
     margin: 5px;
+}
+
+/*changing the font for the content div*/
+#myContent {
+    font-family: "Open sans";
+}
+
+/*changing the font for the footer div*/
+#myFooter {
+    font-family: Quicksand;
 }
