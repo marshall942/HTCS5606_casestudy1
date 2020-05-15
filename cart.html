@@ -2,10 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Pet food shop lizard food</title>
+    <title>Pet food shop online cart</title>
     <link rel="stylesheet" href="css/style.css"> <!--css link-->
     <script src="js/script.js"></script> <!--javascript link-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> <!--link to jquery script-->
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'> <!--link for quicksand font-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"> <!--link for open sans font-->
 </head>
@@ -25,31 +24,8 @@
 
 <!--content div-->
 <div class="content" id="myContent">
-
-    <div class="row">
-        <!--filter div-->
-        <div class="column filter">
-            <h2>Food</h2>
-            <h2>Other</h2>
-            <h2>Sort by:</h2>
-            <h2>Price</h2>
-        </div>
-        <!--carousel div-->
-        <div class="column">
-            <img id="dogCategory" onclick="carousel()" src="image/dog.jpg"/>
-        </div>
-    </div>
-    <br>
-    <!--product row-->
-    <div class="row">
-        <div class="column border product">
-            <img class="productImage" src="image/lizard-food-brand-1.jpg" alt="Picture of reptile food brand 1"/>
-            <h2>Reptile food brand 1</h2><button>Add to cart</button>
-        </div>
-        <div class="column border product">
-            <img class="productImage" src="image/lizard-food-brand-2.jpg" alt="Picture of reptile food brand 2"/>
-            <h2>Reptile food brand 2</h2><button>Add to cart</button>
-        </div>
+    <div id="cartContent">
+        <p>Cart is currently empty. Add something to the cart.</p>
     </div>
 </div>
 
