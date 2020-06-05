@@ -8,7 +8,7 @@
     <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'> <!--link for quicksand font-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans"> <!--link for open sans font-->
 </head>
-<body>
+<body onload="invoice()">
 <!--header div-->
 <div class="header" id="myHeader">
     <h1><a href="https://marshall942.github.io/HTCS5606_casestudy1/home-page.html">Pet food shop online</a></h1>
@@ -39,15 +39,25 @@
         </div>
     </div>
     <br>
+    <!--cart row-->
+    <div class="row">
+        <div class="border" id="cartContent"><p>Cart contents:</p></div>
+    </div>
     <!--product row-->
     <div class="row">
         <div class="column border product">
             <img class="productImage" src="image/dog-food-brand-1.jpg" alt="Picture of dog food brand 1"/>
-            <h2>Dog food brand 1</h2><button>Add to cart</button>
+            <h2>Dog food brand 1</h2>
+            <p>$8.50 each</p>
+            <p>Quantity:<input class="qty" id="dogFood1Qty" type="number">
+                <button class="addBut" id="addDogFood1" onclick="addToCart(this)" price="8.50">Add to cart</button>
         </div>
         <div class="column border product">
             <img class="productImage" src="image/dog-food-brand-2.jpg" alt="Picture of dog food brand 2"/>
-            <h2>Dog food brand 2</h2><button>Add to cart</button>
+            <h2>Dog food brand 2</h2>
+            <p>$5.00 each</p>
+            <p>Quantity:<input class="qty" id="dogFood2Qty" type="number">
+                <button class="addBut" id="addDogFood2" onclick="addToCart(this)" price="5.00">Add to cart</button>
         </div>
     </div>
 </div>

@@ -39,15 +39,25 @@
         </div>
     </div>
     <br>
+    <!--cart row-->
+    <div class="row">
+        <div class="border" id="cartContent"><p>Cart contents:</p></div>
+    </div>
     <!--product row-->
     <div class="row">
         <div class="column border product">
             <img class="productImage" src="image/cat-food-brand-1.jpg" alt="Picture of cat food brand 1"/>
-            <h2>Cat food brand 1</h2><button>Add to cart</button>
+            <h2>Cat food brand 1</h2>
+            <p>$3.00 each</p>
+            <p>Quantity:<input class="qty" id="catFood1Qty" type="number">
+                <button class="addBut" id="addCatFood1" onclick="addToCart(this)" price="3.00">Add to cart</button>
         </div>
         <div class="column border product">
             <img class="productImage" src="image/cat-food-brand-2.jpg" alt="Picture of cat food brand 2"/>
-            <h2>Cat food brand 2</h2><button>Add to cart</button>
+            <h2>Cat food brand 2</h2>
+            <p>$5.49 each</p>
+            <p>Quantity:<input class="qty" id="catFood2Qty" type="number">
+                <button class="addBut" id="addCatFood2" onclick="addToCart(this)" price="5.49">Add to cart</button>
         </div>
     </div>
 </div>

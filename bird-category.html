@@ -40,15 +40,25 @@
         </div>
     </div>
     <br>
+    <!--cart row-->
+    <div class="row">
+        <div class="border" id="cartContent"><p>Cart contents:</p></div>
+    </div>
     <!--product row-->
     <div class="row">
         <div class="column border product">
             <img class="productImage" src="image/bird-food-brand-1.jpg" alt="Picture of bird food brand 1"/>
-            <h2>Bird food brand 1</h2><button>Add to cart</button>
+            <h2>Bird food brand 1</h2>
+            <p>$3.98 each</p>
+            <p>Quantity:<input class="qty" id="birdFood1Qty" type="number">
+                <button class="addBut" id="addBirdFood1" onclick="addToCart(this)" price="3.98">Add to cart</button>
         </div>
         <div class="column border product">
             <img class="productImage" src="image/bird-food-brand-2.jpg" alt="Picture of bird food brand 2"/>
-            <h2>Bird food brand 2</h2><button>Add to cart</button>
+            <h2>Bird food brand 2</h2>
+            <p>$4.50 each</p>
+            <p>Quantity:<input class="qty" id="birdFood2Qty" type="number">
+            <button class="addBut" id="addBirdFood2" onclick="addToCart(this)" price="4.50">Add to cart</button>
         </div>
     </div>
 </div>

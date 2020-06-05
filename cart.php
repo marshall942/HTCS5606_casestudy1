@@ -25,8 +25,10 @@
 <!--content div-->
 <div class="content" id="myContent">
     <div id="cartContent">
-        <p>Cart is currently empty. Add something to the cart.</p>
+        <p>Cart contents:</p>
     </div>
+    <p>End of cart contents.</p>
+    <p>After making this page it's been made redundant. Keeping it for posterity. </p>
 </div>
 
 <!--footer div-->
